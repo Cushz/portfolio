@@ -1,0 +1,54 @@
+*
+{
+    font-family: "EB Garamond", serif;
+    font-weight: 500;
+    font-style: oblique;
+    
+}
+body
+{
+    background-color: #fdfdff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+h1
+{
+    font-size: 5em;
+}
+
+a
+{
+    color: #393d3f;
+    font-size:x-large;
+}
+.flex-container
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color:#393d3f;
+    width: 80%;
+    border: 3px solid #393d3f;
+    border-radius:5px ;
+    box-shadow: 8px 8px 1px #393d3f;
+    padding:0.1em;
+    flex: 2/3;
+    flex-direction: column;
+}
+.flex-sub-container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 3px solid #393d3f;
+    border-radius:5px ;
+    box-shadow: 8px 8px 1px #393d3f;
+    gap: 4em;
+    padding: 1em;
+}

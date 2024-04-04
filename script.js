@@ -1,0 +1,1 @@
+//What else do you want man, it is just a simple page, where you expecting to see useEffects?
